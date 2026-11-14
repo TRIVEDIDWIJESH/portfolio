@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 // TODO: replace "#" with the real URLs
-const LINKS = { github: "https://github.com/TRIVEDIDWIJESH", linkedin: "https://www.linkedin.com/in/dwijesh-trivedi-a88622239/", portfolio: "#" };
+const LINKS = { github: "https://github.com/TRIVEDIDWIJESH", linkedin: "https://www.linkedin.com/in/dwijesh-trivedi-a88622239/"};
 const EMAIL = "dwijesh33@gmail.com";
 const PHONE = "+91 9426433083";
 
@@ -240,7 +240,6 @@ export default function App() {
             <a className="panel link" href={`tel:${PHONE.replace(/\s/g, "")}`}><span className="muted">Phone</span><b>{PHONE}</b></a>
             <a className="panel link" href={LINKS.github} target="_blank" rel="noreferrer"><span className="muted">Code</span><b>GitHub</b></a>
             <a className="panel link" href={LINKS.linkedin} target="_blank" rel="noreferrer"><span className="muted">Network</span><b>LinkedIn</b></a>
-            <a className="panel link" href={LINKS.portfolio} target="_blank" rel="noreferrer"><span className="muted">Work</span><b>Portfolio</b></a>
           </div>
         </section>
       </main>
